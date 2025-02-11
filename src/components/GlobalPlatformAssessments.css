@@ -1,0 +1,97 @@
+/* GlobalPlatformAssessments.css */
+
+.platform-page {
+  margin-left: 400px;
+  padding: 20px;
+  width: 65%;
+  background: linear-gradient(to bottom, #f5f7fa, #c3cfe2);
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.platform-header{
+  background-color: #4b8cd2;
+  border-radius: 5px;
+  width:103%;
+}
+
+.platform-heading {
+  margin-top:10px;
+  font-size: 1.5rem;
+  color: #000000;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  align-self: center;
+}
+
+.platform-description {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+.platform-my-tests {
+  margin-top: 20px;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.platform-test-card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 300px;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.platform-test-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.platform-test-card h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.platform-test-card p {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin-bottom: 15px;
+}
+
+.platform-challenge-button {
+  background: #3498db;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background 0.2s ease;
+  align-self: center;
+  text-align: center;
+}
+
+.platform-challenge-button:hover {
+  background: #2980b9;
+}

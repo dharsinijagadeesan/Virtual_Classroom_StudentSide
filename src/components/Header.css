@@ -1,0 +1,75 @@
+/* General header styles */
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    height: 60px;
+}
+
+/* Left part of the header with logo and title */
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    color: #FF5722; /* Matching your brand color */
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.title {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Right part of the header with notification and avatar */
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.notification {
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.bell-icon {
+    color: #333;
+    font-size: 20px;
+}
+
+.user-avatar {
+    background-color: #1A73E8; /* Blue circle for avatar */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.avatar-text {
+    font-weight: bold;
+}
+
+/* Ensure that the main content stays below the header */
+.main-content {
+    padding-top: 70px; /* Adjust the padding to give space for the fixed header */
+}

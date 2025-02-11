@@ -1,0 +1,300 @@
+.dashboard-container{
+    padding-left: 24%;
+  }
+  
+  /*GLOBALPROFILES.CSS*/
+  
+  .global-profiles-container {
+    background-color: #f8f9fa;  
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+    margin-bottom: 20px;
+    
+  }
+  
+  .global-profile-top{
+    display: flex;
+  }
+   
+  .global-profile-section-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top:20px;
+  }
+   
+  .global-profile-card {
+    width: 50%;
+    display:  block;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+    margin-bottom: 15px;
+  }
+  
+  .gloabal-profile-info:not(.global-profile-edit-link) {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-container {
+      padding-left: 0;
+    }
+  }
+  
+  .global-profile-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px; 
+  }
+  
+  .global-profile-edit-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    padding: 15px 15px;
+    align-self: flex-end;
+  }
+  
+  .global-profile-edit-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Container for the navbar */
+  .navbar-container {
+    background-image: url('bg-navbar.jpeg');        /* Background white */
+    padding-left: 56px;  
+    padding-right: 45px;                /* Padding similar to Bootstrap's p-4 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect similar to Bootstrap's shadow-sm */
+    display: flex; 
+    height: 150px;  
+    margin: 16px;               /* Flexbox layout for alignment */
+    justify-content: space-between; /* Space between the title and button */
+    align-items: center;
+    border-radius: 10px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;          /* Align items vertically in the center */
+  }
+  
+  /* Title styling */
+  .navbar-title {
+    color: #ffffff;   /* Bootstrap's primary blue color */
+    margin: 0; 
+    font-size: 40px;       /* Remove default margin */
+  }
+  
+  /* Button styling */
+  .navbar-button {
+    background-color: #ffffff;   /* Bootstrap's primary blue */
+    color: rgb(11, 118, 160);                /* White text color */
+    border: none;                /* Remove border */
+    padding: 8px 16px;           /* Padding for the button */
+    border-radius: 4px;          /* Slightly rounded corners */
+    cursor: pointer;             /* Pointer cursor on hover */
+    font-size: 20px;             /* Font size */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .navbar-button:hover {
+    background-color: #0056b3;
+    color: white;   /* Darker blue on hover */
+  }
+  
+  /*AssessmentActivity*/
+  .assessment-container {
+    padding: 20px 30px;
+  }
+  
+  .assessment-title {
+    color: #202124;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .col-50 {
+    flex: 0 0 48%;
+  }
+  
+  .card-custom {
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    background-color: #f8f9fa;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    color: #5f6368;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .card-value {
+    color: #202124;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .assessment-note {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #5f6368;
+  }
+  
+  .assessment-link {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  
+  .subject-level-description {
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #5f6368;
+  }
+  
+  .progress-bar-custom {
+    background-color: #e8eaed;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .progress-fill {
+    height: 8px;
+    background-color: #fbbc05;
+    width: 71%; /* Default width */
+  }
+  
+  .subject-level-header {
+    color: #5f6368;
+    font-weight: bold;
+  }
+  
+  .subject-level-value {
+    color: #202124;
+    font-weight: bold;
+  }
+  
+  .live-session-container {
+    margin-top: 50px;
+  }
+  
+  .live-session-note {
+    font-size: 14px;
+    color: #5f6368;
+  }
+  
+  .learning-container {
+    padding: 20px 30px;
+    background-color: #f8f9fa;
+  }
+  
+  .learning-path-section-title, .learning-now-section-title {
+    font-size: 24px;
+    color: #202124;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .learning-path-cards{
+    width: 40%;
+    display:  flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+    margin-bottom: 15px;
+
+  }
+  
+  .learning-path-cards,
+  .learning-now-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1 1 48%; /* Responsive cards taking 48% of the width */
+    text-align: center;
+  }
+  
+  .path-card h3,
+  .now-card h3 {
+    color: #202124;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .goal-circle {
+    display: inline-block;
+    margin: 10px 0;
+    background-color: #e8f0fe;
+    border-radius: 50%;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .goal-circle p {
+    margin: 0;
+  }
+  
+  .goal-percentage {
+    font-size: 24px;
+    color: #4285f4;
+  }
+  
+  .view-btn {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  .view-btn:hover {
+    background-color: #357ae8;
+  }
+  
+  .learning-now-section-title {
+    font-size: 24px;
+    color: #202124;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  @media (max-width: 768px) {
+    .card {
+      flex: 1 1 100%; /* Stack cards on small screens */
+    }
+  }
+  

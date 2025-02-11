@@ -1,0 +1,98 @@
+
+/* Main Container */
+.liveSession-main-content {
+  max-width: 1000px;
+  margin-left:400px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Header Styling */
+.liveSession-header {
+  background-color: #4a90e2;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 10px 10px 0 0;
+  animation: slideDown 1s ease-in-out;
+}
+
+.liveSession-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.liveSession-header p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0 0;
+}
+
+/* Sessions List */
+.liveSession-sessions-list {
+  padding: 2rem;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.liveSession-sessions-list h2 {
+  margin: 0 0 1rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+/* Error Message */
+.liveSession-error-message {
+  color: #ff4d4d;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Session Details */
+.liveSession-session-details {
+  background: #f9f9f9;
+  border-left: 4px solid #4a90e2;
+  padding: 1.5rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  animation: fadeInScale 1s ease-in-out;
+}
+
+.liveSession-session-details p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.liveSession-session-details a {
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.liveSession-session-details a:hover {
+  text-decoration: underline;
+}
+
+/* Animations */
+ 
+
+/* Link Button for the Session */
+.liveSession-session-details a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #4a90e2;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.liveSession-session-details a:hover {
+  background: #357abd;
+  transform: scale(1.05);
+}

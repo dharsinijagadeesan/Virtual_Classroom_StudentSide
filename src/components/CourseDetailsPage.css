@@ -1,0 +1,73 @@
+.course-details {
+  max-width: 800px;
+  margin-left:370px;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-details h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #343a40;
+}
+
+.course-details p {
+  font-size: 1.2rem;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+/* Image Style - Reduced size */
+.course-details img {
+  max-width: 60%; /* Reduced the max width to 60% of the container */
+  height: auto; /* Ensures the image maintains its aspect ratio */
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* Centers the image */
+}
+
+.course-details h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #495057;
+}
+
+.course-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.course-details li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #212529;
+}
+
+.course-details li strong {
+  font-size: 1.3rem;
+  color: #007bff;
+}
+
+.course-details ul ul {
+  padding-left: 20px;
+}
+
+.course-details ul ul li {
+  font-size: 1rem;
+  color: #495057;
+}
+
+.course-details ul ul li::before {
+  content: "•";
+  color: #007bff;
+  font-weight: bold;
+  display: inline-block;
+  width: 1rem;
+  margin-left: -1rem;
+}

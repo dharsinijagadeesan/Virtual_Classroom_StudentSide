@@ -1,0 +1,16 @@
+.assessment-details-page {
+    max-width: 800px;
+    margin-left: 400px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .assessment-details-page h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .assessment-details-page p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }

@@ -1,0 +1,106 @@
+/* StudentReportPage.css */
+
+.viewreport-container {
+    width: 70%;
+    margin: 50px 350px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .viewreport-container h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .viewreport-student-info {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .viewreport-student-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .viewreport-marks-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .viewreport-marks-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .viewreport-marks-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .viewreport-marks-list {
+    margin-top: 20px;
+  }
+  
+  .viewreport-marks-list h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .viewreport-marks-list input {
+    display: block;
+    margin: 0 auto 15px;
+    padding: 8px;
+    width: 80%;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .viewreport-marks-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .viewreport-marks-table th,
+  .viewreport-marks-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .viewreport-marks-table th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .viewreport-marks-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .viewreport-marks-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  p {
+    color: #555;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
